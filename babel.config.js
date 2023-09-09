@@ -81,10 +81,3 @@ module.exports = function(api) {
   }
 }
 
-async function myAsyncFunction() {
-  try {
-    await myAsyncFunction()
-  } catch (error) {
-    handleError(err)
-  }
-}
