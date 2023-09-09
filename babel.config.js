@@ -80,3 +80,11 @@ module.exports = function(api) {
     ].filter(Boolean)
   }
 }
+
+async function myAsyncFunction() {
+  try {
+    await myAsyncFunction()
+  } catch (error) {
+    handleError(err)
+  }
+}
