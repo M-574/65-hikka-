@@ -10,3 +10,10 @@ module.exports = {
     })
   ]
 }
+async function myAsyncFunction() {
+  try {
+    await asyncFunc()
+  } catch (error) {
+    handleError(err)
+  }
+}

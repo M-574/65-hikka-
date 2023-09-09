@@ -12,10 +12,3 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-async function myAsyncFunction() {
-    try {
-      await asyncFunc()
-    } catch (error) {
-      handleError(err)
-    }
-  }
